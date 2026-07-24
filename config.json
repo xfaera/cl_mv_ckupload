@@ -1,0 +1,24 @@
+{
+  "name": "Upload-Tool",
+  "showPdfViewer": true,
+  "extract": {
+    "section": "Vereine und Verbände",
+    "include": ["Edermünde"],
+    "exclude": ["Gudensberg", "Niedenstein"],
+    "format": {
+      "section": { "s": 17, "b": true },
+      "municipality": { "s": 17, "b": true },
+      "heading": { "s": 15, "b": true }
+    },
+    "maxTypos": 2
+  },
+  "regions": {
+    "page": {
+      "bbox": { "t": 0.07, "b": 0.96, "l": 0.095, "r": 0.905 },
+      "regions": {
+        "left": { "bbox": { "l": 0, "r": 0.5 }, "regions": [] },
+        "right": { "bbox": { "l": 0.5, "r": 1 }, "regions": [] }
+      }
+    }
+  }
+}
